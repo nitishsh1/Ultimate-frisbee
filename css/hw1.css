@@ -1,0 +1,151 @@
+body{
+	padding:2%;
+	margin:2%;
+	background:#ffffff;
+}
+
+
+h1{
+	text-align:center;
+	text-transform:uppercase;
+	color:#ffffff;
+}
+
+header{
+	height:10%;
+	background:rgb(50,75,80);
+	background: url("../images/flywheel.jpg") no-repeat;
+	background-size: 100% auto;
+	padding:1%;
+	margin:0 1%;
+}
+
+.right a{
+	display:inline-block;
+	color:rgb(0,0,0);
+	background: rgba(236, 224, 224, 0.3);
+	border-radius:3pxpx;
+	text-decoration:none;
+	margin:2px 5px;
+	padding:2px 5px;
+	font-size:110%;	
+	margin-bottom:2px;
+	
+}
+
+.right a:hover{
+	color:rgba(110,105,200,0.5);
+	background:rgba(150,150,225,0.9);
+}
+
+nav {
+	text-align:center;
+
+
+}
+
+	
+nav a{
+	display:inline-block;
+	color:rgb(0,0,0);
+	background: rgba(236, 224, 224, 0.3);
+	border-radius:10px;
+	text-decoration:none;
+	margin:2% 5%;
+	padding:2% 5%;
+	font-size:110%;	
+	margin-bottom:2%;
+}
+
+nav a:hover{
+	background-color:rgba(225,225,225,0.8);
+}
+
+.active{
+	background-color:rgba(200,200,225,1);
+}
+
+
+h2{
+	text-transform:uppercase;
+	color:#987650;
+}
+
+
+
+.left {
+	background-color: #386620;
+	width: 24%;
+	
+	float:left;
+	padding: 1% 0;
+	margin:0 1%;
+	height:100vh;
+}
+
+.right {
+	float:right;
+	width:72%;
+	
+	padding:1% 0;
+	margin:0 1% ;
+	background:#ffffff;
+	height:100vh;
+}
+
+.left img {
+	border: solid 1px #000000;
+	width: 80%;
+	margin: 10%;
+}
+
+.right table{
+	box-sizing:border-box;
+	margin:3% 8%;
+	width:68%;
+	height:60%;
+}
+
+.right table tr th{
+	color:#ffffff;
+	background:#386419;
+	height:25px;
+	
+	
+}
+
+.right table tr th:first-child{
+	border-top-left-radius:5px;
+	text-align:left;
+	padding:5px;
+}
+
+.right table tr th:last-child{
+	border-top-right-radius:5px;
+}
+
+.right table tr:nth-child(n+2) {
+	background-color:#99e793;
+	height:25px;
+}
+
+.right table tr td:first-child{
+	padding:5px;
+}
+
+.right table tr td:nth-child(n+2){
+	text-align:center;
+}
+
+.right table tr:last-child td:first-child{
+	border-bottom-left-radius:5px;
+}
+
+.right table tr:last-child td:last-child{
+	border-bottom-right-radius:5px;
+}
+
+td:hover{
+	background:#96d599;
+	
+}
